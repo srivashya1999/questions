@@ -1,0 +1,165 @@
+1. Which of these in not a core data type?
+a) Lists
+b) Dictionary
+c) Tuples
+d) Class
+2. Which of the following will run without errors?
+a) round(45.8)
+b) round(6352.898,2,5)
+c) round()
+d) round(7463.123,2,1)
+3.What is the return type of function id?
+a) int
+b) float
+c) bool
+d) dict
+4.What error occurs when you execute the following Python code snippet?
+
+apple = mango
+
+a) SyntaxError
+b) NameError
+c) ValueError
+d) TypeError
+5. Which is the correct operator for power(xy)?
+a) X^y
+b) X**y
+c) X^^y
+d) None of the mentioned
+6. What is the output of this expression, 3*1**3?
+a) 27
+b) 9
+c) 3
+d) 1
+7.What will be the output of the following Python code?
+
+i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+ 
+    i + = 1
+
+a) 1 2
+b) 1 2 3
+c) error
+d) none of the mentioned
+8.What will be the output of the following Python code?
+
+True = False
+while True:
+    print(True)
+    break
+a) True
+b) False
+c) None
+d) none of the mentioned
+9.What will be the output of the following Python code?
+
+for i in range(10):
+    if i == 5:
+        break
+    else:
+        print(i)
+else:
+    print("Here")
+
+a) 0 1 2 3 4 Here
+b) 0 1 2 3 4 5 Here
+c) 0 1 2 3 4
+d) 1 2 3 4 5
+
+10.What will be the output of the following Python code?
+
+x = (i for i in range(3))
+for i in x:
+    print(i)
+a) 0 1 2
+b) error
+c) 0 1 2 0 1 2
+d) none of the mentioned
+
+11. Which of the following is the use of function in python?
+a) Functions are reusable pieces of programs
+b) Functions don’t provide better modularity for your application
+c) you can’t also create your own functions
+d) All of the mentioned
+
+12.What are the two main types of functions?
+a) Custom function
+b) Built-in function & User defined function
+c) User function
+d) System function
+
+13.Python supports the creation of anonymous functions at runtime, using a construct called __________
+a) lambda
+b) pi
+c) anonymous
+d) none of the mentioned
+
+14.What will be the output of the following Python code?
+
+y = 6
+z = lambda x: x * y
+print z(8)
+a) 48
+b) 14
+c) 64
+d) None of the mentioned
+
+15.Does Lambda contains return statements?
+a) True
+b) False
+
+16.What will be the output of the following Python code?
+
+def writer():
+	title = 'Sir'
+	name = (lambda x:title + ' ' + x)
+	return name
+ 
+who = writer()
+who('Arthur')
+a) Arthur Sir
+b) Sir Arthur
+c) Arthur
+d) None of the mentioned
+
+17. What will be the output of the following Python code?
+
+def change(one, *two):
+   print(type(two))
+change(1,2,3,4)
+a) Integer
+b) Tuple
+c) Dictionary
+d) An exception is thrown
+
+18.What will be the output of the following Python code?
+
+def find(a, **b):
+   print(type(b))
+find('letters',A='1',B='2')
+a) String
+b) Tuple
+c) Dictionary
+d) An exception is thrown
+
+19.Which are the advantages of functions in python?
+a) Reducing duplication of code
+b) Decomposing complex problems into simpler pieces
+c) Improving clarity of the code
+d) All of the mentioned
+
+20.What will be the output of the following Python code?
+
+def f1():
+    x=15
+    print(x)
+x=12
+f1()
+a) Error
+b) 12
+c) 15
+d) 1512
